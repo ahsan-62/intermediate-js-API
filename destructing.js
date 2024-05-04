@@ -25,3 +25,17 @@ const hey ={
 const  {name , roll: myRoll } =hey;  //এভাবে প্রোপার্টির নাম চেইঞ্জ করে অন্য নাম দেওয়া যায়।
 
 console.log(name, myRoll);
+
+
+
+
+//More Array Destructing
+
+
+const rolls =[5,10,15];
+const[x,,y]=rolls;
+console.log(x,y);
+
+//or 
+const [a,b,c]=[5,10,15];
+console.log(a,b,c);
