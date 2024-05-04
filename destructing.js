@@ -39,3 +39,14 @@ console.log(x,y);
 //or 
 const [a,b,c]=[5,10,15];
 console.log(a,b,c);
+
+
+//or
+
+function twoNumbers(x,y){
+
+    return [x*2,y*2];
+}
+
+const [x1,y1]=twoNumbers(5,10);
+console.log(x1,y1);
