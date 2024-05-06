@@ -27,3 +27,9 @@ console.log(highestRam);
 
 const lowestRam=computers.find(r=>r.ram<32);
 console.log(lowestRam);
+
+
+//reduce
+
+const totalRam=computers.reduce((accumulator,current)=>accumulator+(current.ram),0);
+console.log(totalRam);
