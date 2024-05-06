@@ -17,5 +17,4 @@ const friends={
  }
 
  const ahsan=new person('Ahsan',27,'Sherpur');
-
- console.log(ahsan);
+    console.log(ahsan);
