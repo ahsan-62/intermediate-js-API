@@ -18,4 +18,5 @@ const users={
 
 console.log(users.address.dis.unit[0].color);  //Etai chaining ,Access the value from the nested object.
 
-console.log(users.address.upazila?.unit[0].distance); // ? mark diye error handle kora jaii.property na thakle sekhanei theme jabe .Etake Optional chaining Bole.
+console.log(users.address.upazila?.unit[0].distance); 
+// ? mark diye error handle kora jaii.property na thakle sekhanei theme jabe .Etake Optional chaining Bole.
